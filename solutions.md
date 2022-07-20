@@ -44,7 +44,7 @@ console.log('0! => ', factorialize(0));
 ### RELEVANT LINKS:
 - [Tail Recursion](https://www.geeksforgeeks.org/tail-recursion/)
 
-### SOLUTION 4:
+### Solution 4:
 ```js
 function factorialize(num) {
   return num < 0 ? 1 : new Array(num)
