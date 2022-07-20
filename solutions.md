@@ -41,7 +41,7 @@ console.log('0! => ', factorialize(0));
 - In tail recursion, you perform your calculations first, and then you execute the recursive call, passing the results of your current step to the next recursive step.  This results in the last statement being in the form of (return (recursive-function params)).
 - In this solution, with aech evaluation of the recursive call, the factorial is updated.  This is different from the head-recursive solution where all evaluation calculations are stored on the stack until the base case is reached.
 
-### RELEVANT LINKS:
+### REFERENCE LINKS:
 - [Tail Recursion](https://www.geeksforgeeks.org/tail-recursion/)
 
 ### Solution 4:
