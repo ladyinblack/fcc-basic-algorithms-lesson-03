@@ -50,7 +50,6 @@ Fifth Execution: num = 2 - 1 = 1 -> is num 0 or 1? Yep
 - [Recursion in JS](https://www.youtube.com/watch?v=k7-N8R0-KY4)
 
 
-/** SOLUTION 1 EXPLAINED (AS ABOVE):
- * Since the return values for the function will always be greater than or equal to 1, "product" is initialized at one.  For the case where the number is "0", the for loop condition will be false, but since "product" is initialized as "1", it will have the correct value when the "return" statement is executed.
- * For all numbers passed to the function which are greater than one, the simple "for" loop will increment "i" by one each iteration and recalculate "product" up to the value "num".
- */
+### SOLUTION 1 EXPLAINED (AS ABOVE):
+- Since the return values for the function will always be greater than or equal to 1, `product` is initialized at one.  For the case where the number is `0`, the for loop condition will be false, but since `product` is initialized as `1`, it will have the correct value when the `return` statement is executed.
+- For all numbers passed to the function which are greater than one, the simple `for` loop will increment `i` by one each iteration and recalculate `product` up to the value `num`.
