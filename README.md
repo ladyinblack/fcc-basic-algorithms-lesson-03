@@ -6,7 +6,7 @@
 
 
 ## HINTS
-### Hint 1
+
 You know your solution should return `1` when the number passed to the function is `0` or `1`.  Also, the final value returned will be the product of all the numbers between 1 and the number (inclusive).  If you initialize the value for the product to `1`, then think how you could start at the given number and continue decrementing this number until a specific value while multiplying the product by the number at each step.
 
 #### RECURSIVE SOLUTION
